@@ -63,17 +63,16 @@
 <h3>Steps</h3>
     <ol>
         <li><b>Clone the Repository</b>
-            <pre><code>git clone https://github.com/your-username/property-management-system.git
-cd property-management-system</code></pre>
+            <pre><code>git clone https://github.com/sailikhitha07/Property-Management-System.git
+cd Property-Management-System</code></pre>
         </li>
         <li><b>Configure the Database</b>
             <ul>
-                <li>Create a MySQL database for the project:
+                Create a MySQL database for the project:
                     <pre><code>CREATE DATABASE property_management;
 USE property_management;</code></pre>
                 </li>
-                <li>Run the provided SQL script to set up the required tables:
-                    <pre><code>mysql -u username -p property_management &lt; setup.sql</code></pre>
+                <li>Connect property_management with the project file.
                 </li>
             </ul>
         </li>
